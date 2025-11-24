@@ -10,5 +10,6 @@ public class Main{
         System.out.println("Criando um botão");
         Application appWin = new Application(new WinFactory());
         appWin.buttonUI();
+        // só um teste
     }
 }
