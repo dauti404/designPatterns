@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args){
         // Cliente criando uma árvore
-        System.out.println("Criando uma árvore");
+        System.out.println("Criando uma árvore\n");
         // Instanciando o produto concreto e criando um objeto
         Tree treeConcrete = new Tree();
         // Criando o produto concreto

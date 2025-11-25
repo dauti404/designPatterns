@@ -19,7 +19,7 @@ class Application {
                     System.out.print(" ");
                 }
                 for(eixoY = 0; eixoY < eixoX + copa; eixoY++){
-                    System.out.print("* ");
+                    System.out.print("❇️ ");
                 }
                 System.out.println(" ");
             }
@@ -32,7 +32,7 @@ class Application {
                 System.out.print(" ");
             }
             for(eixoY = 0; eixoY < 4; eixoY++) {
-                System.out.print("* ");
+                System.out.print("🪵");
             }
             System.out.println(" ");
         }
