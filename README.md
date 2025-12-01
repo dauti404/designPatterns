@@ -1,7 +1,7 @@
 # Descrição 
 
 Implementação dos padrões de projetos da Gang of Four (Gof) como forma de aprendizado para futuros projetos
-* As implementos são feitas de forma simples para ser usada como exemplo
+* As implementos são feitas de forma simples para serem usadas como exemplo
 
 ![Zed](https://img.shields.io/badge/zedindustries-084CCF.svg?style=for-the-badge&logo=zedindustries&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=black)  
 
