@@ -8,5 +8,12 @@ public class App{
         c1.conectado();
         // Estado do celular desconectado da internet
         c1.desconectado();
+        
+        System.out.println();
+        
+        Celular c2 = new Celular();
+        
+        c2.ligado();
+        c2.desligado();
     }
 }

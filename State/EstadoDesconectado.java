@@ -8,16 +8,23 @@ public class EstadoDesconectado implements State{
         this.celular = celular;
     }
     
-    // Retorna o estado se necessário
-    public void conectado(){
-        System.out.println("Celular já conectado à internet!");
-    }
-    
     // Desconecta o celular da internet
     public void desconectado(){
         System.out.println("Celular desconectado!");
         // Externo: seta o estado atual - desconectado
         // Interno: retorna o estado desconectado da rede
         celular.setEstado(celular.getEstadoDesconectado());
+    }
+    
+    public void conectado(){
+        System.out.println("Celular já conectado à internet!");
+    }
+    
+    public void ligado(){
+        System.out.println("Celular ligado!");
+    }
+    
+    public void desligado(){
+        System.out.println("Celular desligado!");
     }
 }

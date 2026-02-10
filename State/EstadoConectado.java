@@ -16,8 +16,15 @@ public class EstadoConectado implements State{
         celular.setEstado(celular.getEstadoConectado());
     }
     
-    // Caso o celular não conecte na internet
     public void desconectado(){
         System.out.println("Celular não conectado à internet!");
+    }
+    
+    public void desligado(){
+        System.out.println("Celular desligado!");
+    }
+    
+    public void ligado(){
+        System.out.println("Celular ligado!");
     }
 }

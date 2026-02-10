@@ -2,4 +2,6 @@
 public interface State{
     void conectado();
     void desconectado();
+    void desligado();
+    void ligado();
 }
